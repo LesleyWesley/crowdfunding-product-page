@@ -1,3 +1,54 @@
+
+
+body {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  font-family: "Commissioner", sans-serif;
+  font-size: 1rem;
+  background-color: #FFF;
+  background-image: url("../images/image-hero-mobile.jpg");
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 30px 25px 175px 25px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+/*------- PROJECT HEADING SECTION - MOBILE ------ */
+
+
+
+
+
+
+
+
+
+
 .hide {
-  display: none;
+display: none;
 }
