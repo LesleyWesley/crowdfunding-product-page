@@ -40,11 +40,13 @@ section {
   background: #FFF;
   border-radius: 10px;
   box-shadow: 0px 0px 20px rgba(122, 122, 122, .2);
-  padding: 40px 22px;
+  padding: 30px 22px;
 }
 
 p {
   color: #7A7A7A;
+  font-size: .9em;
+  line-height: 1.75em;
 }
 
 button {
@@ -72,12 +74,11 @@ button {
 h1 {
   text-align: center;
   font-size: 1.3em;
+  padding-top: 10px;
 }
 
 .project-header p {
   text-align: center;
-  font-size: .9em;
-  line-height: 1.75em;
   padding-bottom: 10px;
 }
 
@@ -105,6 +106,105 @@ h1 {
   width: 100%;
 }
 
+h2 {
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 1.75em;
+}
+
+.project-progress p {
+  text-align: center;
+  margin: 10px 0 25px;
+  padding-bottom: 25px;
+  font-size: .8em;
+  border-bottom: 1px solid rgba(122, 122, 122, .5);
+}
+
+.days-left p {
+  border: none;
+  margin-bottom: 10px;
+}
+
+
+.progress-bar-section {
+  width: 100%;
+  background-color: rgba(122, 122, 122, .1);
+  height: .9em;
+  display: flex;
+  justify-content: flex-start;
+  border-radius: 25px;
+}
+
+.progress-bar-fill {
+  width: 90%;
+  height: 100%;
+  background-color: #3CB4AC;
+  border-radius: 25px;
+}
+
+/*====== ABOUT SECTION - MOBILE ====== */
+
+h3 {
+  text-align: left;
+  width: 100%;
+}
+
+.about p {
+  line-height: 2em;
+}
+
+.pledge {
+  border-radius: 7px;
+  margin: 15px 0;
+  border: 1px solid rgba(122, 122, 122, .5);
+  padding:  10px 20px 25px 20px;
+}
+
+.pledge-heading h4 {
+  margin-bottom: 5px;
+}
+
+.pledge-heading p {
+  color: #3CB4AC;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.pledge-footer p {
+  display: flex;
+  align-items: center;
+  margin: 20px 0 25px 0;
+}
+
+.pledge-footer span {
+  color: #000;
+  font-weight: 700;
+  font-size: 1.8em;
+  padding-right: 8px;
+}
+
+.mahogany h4{
+  color: rgba(122, 122, 122, .5);
+}
+
+.mahogany .pledge-heading p {
+  color: rgba(60, 180, 172, .5);
+
+}
+
+.mahogany p{
+  color: rgba(122, 122, 122, .5);
+}
+
+.mahogany p span {
+  color: rgba(0, 0, 0, .5);
+}
+
+.mahogany button {
+  background-color: rgba(122, 122, 122, .5);
+}
+
+/*==== MAIN MODAL - MOBILE ===== */
 
 
 
