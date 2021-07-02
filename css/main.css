@@ -22,6 +22,8 @@ header {
   align-items: center;
   width: 100%;
   padding: 30px 25px 175px 25px;
+  position: relative;
+  z-index: 1;
 }
 
 main {
@@ -29,6 +31,8 @@ main {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  position: relative;
+  z-index: 1;
 }
 
 section {
@@ -206,7 +210,17 @@ h3 {
 
 /*==== MAIN MODAL - MOBILE ===== */
 
+.selection-modal-background {
+  position: relative;
+  background-color: rgba(0, 0, 0, .5);
+  top: 0;
+  z-index: 100;
+  padding: 150px 25px;
+}
 
+.selection-modal {
+  background: #FFF;
+}
 
 
 
