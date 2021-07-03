@@ -21,9 +21,7 @@ header {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 30px 25px 175px 25px;
-  position: relative;
-  z-index: 1;
+
 }
 
 main {
@@ -31,8 +29,6 @@ main {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  position: relative;
-  z-index: 1;
 }
 
 section {
@@ -151,6 +147,7 @@ h2 {
 h3 {
   text-align: left;
   width: 100%;
+  font-size: 1.3em;
 }
 
 .about p {
@@ -164,7 +161,7 @@ h3 {
   padding:  10px 20px 25px 20px;
 }
 
-.pledge-heading h4 {
+.pledge-heading  h4 {
   margin-bottom: 5px;
 }
 
@@ -211,15 +208,32 @@ h3 {
 /*==== MAIN MODAL - MOBILE ===== */
 
 .selection-modal-background {
-  position: relative;
   background-color: rgba(0, 0, 0, .5);
-  top: 0;
-  z-index: 100;
   padding: 150px 25px;
 }
 
 .selection-modal {
   background: #FFF;
+  padding: 25px 25px;
+}
+
+.modal-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: nowrap;
+  width: 100%;
+}
+
+.modal-heading i {
+  color: rgb(122, 122, 122);
+  font-size: 1.25em;
+}
+
+.selection-modal p {
+  font-size: .85em;
+  line-height: 1.75em;
+
 }
 
 
