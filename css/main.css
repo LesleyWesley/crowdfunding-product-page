@@ -233,9 +233,11 @@ h3 {
 .selection-modal p {
   font-size: .85em;
   line-height: 1.75em;
-
 }
 
+label span {
+  color: #3CB4AC;
+}
 
 
 .hide {
