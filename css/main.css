@@ -232,7 +232,8 @@ h3 {
 
 .selection-modal p {
   font-size: .85em;
-  line-height: 1.75em;
+  line-height: 1.9em;
+  padding-bottom: 5px;
 }
 
 .selection-modal .pledge {
@@ -240,9 +241,45 @@ h3 {
   margin: 25px 0;
 }
 
+
 input[type="radio" i] {
   text-align: left;
   margin: 0 15px 0 0;
+  transform: scale(1.5);
+}
+
+label {
+  font-weight: 700;
+  line-height: 1.75em;
+}
+
+label span {
+  font-weight: 400;
+  color: #3CB4AC;
+  padding-left: 25px;
+}
+
+.number-left {
+  color: #000;
+  font-size: 1.5em;
+  font-weight: 700;
+  padding-right: 7px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  width: 100%;
+}
+
+form input {
+  width: 40%;
+  margin: 0;
+}
+form button {
+  width: 50%;
+  padding: 12px 0;
 }
 
 
