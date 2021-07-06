@@ -235,8 +235,14 @@ h3 {
   line-height: 1.75em;
 }
 
-label span {
-  color: #3CB4AC;
+.selection-modal .pledge {
+  padding: 25px;
+  margin: 25px 0;
+}
+
+input[type="radio" i] {
+  text-align: left;
+  margin: 0 15px 0 0;
 }
 
 
