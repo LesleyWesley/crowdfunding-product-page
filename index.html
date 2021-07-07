@@ -156,7 +156,6 @@
   <!-- Selection modal start -->
     <div class="selection-modal-background">
       <div class="selection-modal">
-
         <div class="modal-heading">
             <h3>Back this project</h3>
             <i class="fas fa-times" alt="close menu"></i>
@@ -166,13 +165,16 @@
 
 
         <div class="pledge no-reward-section">
+
             <label for="no-reward">
                 <input id="no-reward" type="radio" name="pledge-type">Pledge with no reward
             </label>
             <p>Choose to support us without a reward if you simply believe in our project.  As a backer, you will be signed up to receive product updates via email.</p>
+
         </div>
 
         <div class="pledge bamboo-stand-section">
+
             <label for="bamboo-stand">
                 <input id="bamboo-stand" type="radio" name="pledge-type">Bamboo Stand <br><span>Pledge $25 or more</span>
             </label>
@@ -180,14 +182,18 @@
             <p><span class="number-left">101</span>left</p>
             <form class="bamboo-form">
                 <p>Enter your pledge</p>
-                <label for="pledge-amount-bamboo">
-                    <input type="text" id="pledge-amount-bamboo" placeholder="$" name="pledge-amount" />
-                </label>
-                <button type="submit">Continue</button>
+                <div class="enter-amount-section">
+                    <label for="pledge-amount-bamboo">
+                        <input type="text" id="pledge-amount-bamboo" placeholder="$" name="pledge-amount" />
+                    </label>
+                    <button type="submit">Continue</button>
+                </div>
             </form>
+
         </div>
 
         <div class="pledge black-edition-section">
+
           <label for="black-edition">
               <input id="black-edition" type="radio" name="pledge-type">Black Edition Stand<br><span>Pledge $75 or more</span>
           </label>
@@ -195,21 +201,27 @@
           <p><span class="number-left">64</span>left</p>
           <form class="black-edition-form">
               <p>Enter your pledge</p>
-              <label for="pledge-amount-black-edition">
-                  <input type="text" id="pledge-amount-black-edition" placeholder="$" name="pledge-amount" />
-              </label>
-              <button type="submit">Continue</button>
+              <div class="enter-amount-section">
+                  <label for="pledge-amount-black-edition">
+                    <input type="text" id="pledge-amount-black-edition" placeholder="$" name="pledge-amount" />
+                  </label>
+                  <button type="submit">Continue</button>
+              </div>
           </form>
+
         </div>
 
         <div class="pledge mahogany-special-section">
+
           <label for="mahogany">
               <input id="mahogany" type="radio" name="pledge-type" disabled>Mahogany Special Edition<br><span>Pledge $200 or more</span>
           </label>
           <p>You get two Special Edition Mahogany stands, a Backer T-SHirt, and a personal thank you.  You'll be added to our Backer member list.  Shipping is included.</p>
           <p><span class="number-left">0</span>left</p>
         </div>
+
       </div>
+
     </div>
 
   <!-- Selection modal End -->
