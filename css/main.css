@@ -316,6 +316,41 @@ form button {
   width: 50%;
 }
 
+/*===== SUCCESS MODAL - MOBILE ======= */
+
+.success-modal-background {
+  background-color: rgba(0, 0, 0, .5);
+  padding: 150px 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  position: absolute;
+  z-index: 3;
+  width: 100%;
+}
+
+.success-modal {
+  background-color: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 85%;
+  border-radius: 10px;
+  padding: 30px 0;
+}
+
+.success-modal h3 {
+  text-align: center;
+}
+
+.success-modal p {
+  text-align: center;
+  width: 90%;
+  padding-bottom: 25px;
+}
+
 
 .hide {
 display: none;
