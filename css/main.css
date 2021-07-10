@@ -261,6 +261,25 @@ h3 {
   padding-right: 25px;
 }
 
+.radio-placeholder {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid rgba(122, 122, 122, .5);
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.radio-inner-circle {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: #3CB4AC;
+}
+
 
 input[type="radio" i] {
   text-align: left;
@@ -270,13 +289,41 @@ input[type="radio" i] {
 
 label {
   font-weight: 700;
-  line-height: 1.75em;
+  line-height: .75em;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 95%;
+  font-size: .95em;
 }
 
 label span {
   font-weight: 400;
   color: #3CB4AC;
-  padding-left: 50px;
+  padding-left: 55px;
+}
+
+.bamboo-stand-section .radio-placeholder,
+.black-edition-section .radio-placeholder,
+.mahogany-special-section .radio-placeholder {
+  margin-top: 20px;
+}
+
+.mahogany-special-section label {
+  color: rgba(0, 0, 0, .5);
+}
+
+.mahogany-special-section label span {
+  color: rgba(60, 180, 172, .5);
+}
+
+.mahogany-special-section p {
+  color: rgba(122, 122, 122, .5);
+}
+
+.mahogany-special-section p span {
+  color: rgba(0, 0, 0, .5);
 }
 
 .number-left {
@@ -336,7 +383,7 @@ form button {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 85%;
+  width: 90%;
   border-radius: 10px;
   padding: 30px 0;
 }
@@ -348,7 +395,13 @@ form button {
 .success-modal p {
   text-align: center;
   width: 90%;
-  padding-bottom: 25px;
+  padding-bottom: 20px;
+  font-size: .95em;
+  line-height: 2em;
+}
+
+.success-modal button {
+  font-size: 1em;
 }
 
 
